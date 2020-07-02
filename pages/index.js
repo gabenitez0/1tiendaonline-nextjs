@@ -1,11 +1,12 @@
 import Head from "next/head";
+import dynamic from 'next/dynamic'
 
 //COMPONENTS
 import Header from "../components/Header";
 import Services from "../components/Services";
-import Features from "../components/Features";
-import Soporte from "../components/Soporte";
-import Contacto from "../components/Contacto";
+const Features = dynamic(() => import('../components/Features'))
+const Soporte = dynamic(() => import('../components/Soporte'))
+const Contacto = dynamic(() => import('../components/Contacto'), { ssr: false })
 
 export default function IndexPage() {
   return (

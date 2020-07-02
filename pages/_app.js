@@ -1,10 +1,12 @@
+import dynamic from "next/dynamic";
 import App from "next/app";
 import Head from "next/head";
 import "../static/icons/font/flaticon.css";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Scripts from "../components/Scripts";
+
+const Scripts = dynamic(() => import("../components/Scripts"), { ssr: false });
 
 export default class Layout extends App {
   render() {
