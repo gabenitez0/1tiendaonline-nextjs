@@ -1,14 +1,23 @@
-import dynamic from "next/dynamic";
 import App from "next/app";
 import Head from "next/head";
 import "../static/icons/font/flaticon.css";
+import "react-lazyload-youtube/dist/index.css";
+
+import TagManager from "react-gtm-module";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-const Scripts = dynamic(() => import("../components/Scripts"), { ssr: false });
+const tagManagerArgs = {
+  gtmId: "GTM-K755N37",
+  auth: 'w_AG8jKZqBGQk3uNJd3rhA',
+  preview: 'env-3'
+};
 
 export default class Layout extends App {
+  componentDidMount() {
+    TagManager.initialize(tagManagerArgs);
+  }
   render() {
     const { Component, pageProps } = this.props;
     return (
@@ -26,7 +35,6 @@ export default class Layout extends App {
         <Nav />
         <Component {...pageProps} />
         <Footer />
-        <Scripts />
 
         <style jsx global>{`
           ::selection {

@@ -1,7 +1,15 @@
 import React, { useState } from "react";
+import YouTube from "react-lazyload-youtube";
 
 export default function Features() {
   const [visible, setVisible] = useState(false);
+
+  const opts = {
+    height: "380",
+    width: "700",
+    playerVars: { controls: 0 },
+  };
+
   const modal = {
     opacity: visible ? 1 : 0,
     zIndex: visible ? 10 : -1,
@@ -14,6 +22,7 @@ export default function Features() {
     "Recopilación automática de datos",
     "Automatización de Leads y Ventas",
   ];
+
   return (
     <section id="features">
       <div className="image" />
@@ -30,18 +39,16 @@ export default function Features() {
             <i className="flaticon-right-arrow" /> <h3>{f}</h3>
           </div>
         ))}
-        <button className="button-primary" onClick={() => setVisible(true)}>
+        <button
+          className="button-primary"
+          id="yt-iframe"
+          onClick={() => setVisible(true)}
+        >
           Cómo se hace
         </button>
-        <div className="modal" style={modal} onClick={() => setVisible(false)}>
-          <iframe
-            width="700"
-            height="380"
-            src="https://www.youtube.com/embed/cgNTtM44-Dk?controls=0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div className="modal" style={modal} >
+          <div className="modal modalBg" onClick={() => setVisible(false)} />
+          <YouTube videoId="cgNTtM44-Dk" width="700px" height="380px" imgSize="maxresdefault" />
         </div>
       </div>
 
@@ -51,14 +58,16 @@ export default function Features() {
           display: flex;
           height: 100%;
           width: 100%;
+          background: rgba(0, 0, 0, 0.4);
           top: 0;
           left: 0;
-          background: rgba(0, 0, 0, 0.4);
           align-items: center;
           justify-content: center;
           transition: all 0.3s ease-out;
           opacity: 0;
           z-index: -1;
+        }
+        .modalBg{
         }
         section {
           display: flex;

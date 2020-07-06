@@ -12,6 +12,9 @@
     "next": "9.4.4",
     "next-images": "^1.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-async-script": "^1.2.0",
+    "react-dom": "16.13.1",
+    "react-gtm-module": "^2.0.8",
+    "react-lazyload-youtube": "^1.0.5"
   }
 }
