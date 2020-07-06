@@ -4,12 +4,6 @@ import YouTube from "react-lazyload-youtube";
 export default function Features() {
   const [visible, setVisible] = useState(false);
 
-  const opts = {
-    height: "380",
-    width: "700",
-    playerVars: { controls: 0 },
-  };
-
   const modal = {
     opacity: visible ? 1 : 0,
     zIndex: visible ? 10 : -1,
@@ -48,7 +42,7 @@ export default function Features() {
         </button>
         <div className="modal" style={modal} >
           <div className="modal modalBg" onClick={() => setVisible(false)} />
-          <YouTube videoId="cgNTtM44-Dk" width="700px" height="380px" imgSize="maxresdefault" />
+          <YouTube videoId="cgNTtM44-Dk" width="700px" height="394px" imgSize="maxresdefault" />
         </div>
       </div>
 
