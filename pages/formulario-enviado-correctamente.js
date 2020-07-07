@@ -5,7 +5,7 @@ export default function Solicitud() {
     <>
       <Head>
         <title>Solicitud enviada | 1tiendaonline - Automatiza tu negocio</title>
-        <meta name="robots" content="nofollow noindex" />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section id="solicitud">
         <div className="container solicitud">

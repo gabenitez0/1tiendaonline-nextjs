@@ -5,7 +5,7 @@ export default function Error() {
     <>
       <Head>
         <title>Solicitud enviada | 1tiendaonline - Automatiza tu negocio</title>
-        <meta name="robots" content="nofollow noindex" />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section id="error">
         <div className="container error">
