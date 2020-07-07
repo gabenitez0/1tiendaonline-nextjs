@@ -1,10 +1,7 @@
 import React from "react";
-import makeAsyncScriptLoader from "react-async-script";
 import HSForm from "./asyncScripts/HSForm";
 
 export default function Contacto() {
-  
-  const HubSpotForm = makeAsyncScriptLoader("//js.hsforms.net/forms/shell.js")(HSForm)
   return (
     <section id="contacto">
       <div className="contacto container">
@@ -12,7 +9,7 @@ export default function Contacto() {
           <span>Solicitud de proyecto</span>
           <h2>Contanos qué querés lograr</h2>
         </div>
-        <HubSpotForm />
+        <HSForm />
       </div>
 
       <style jsx>{`

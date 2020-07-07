@@ -1,14 +1,20 @@
 import { useEffect } from "react";
 export default function HSForm() {
   useEffect(() => {
-    if (window.hbspt) {
-      hbspt.forms.create({
-        portalId: "6978315",
-        formId: "d6966c5c-caf2-4c70-a9b7-c8450bdca777",
-        target: "#form",
-      });
-    }
-  }, {});
+    const script = document.createElement("script");
+    script.src = "//js.hsforms.net/forms/shell.js";
+    document.body.appendChild(script);
+
+    script.addEventListener("load", () => {
+      if (window.hbspt) {
+        hbspt.forms.create({
+          portalId: "6978315",
+          formId: "d6966c5c-caf2-4c70-a9b7-c8450bdca777",
+          target: "#form",
+        });
+      }
+    });
+  }, []);
   return (
     <div id="form" className="form">
       <style jsx>{`

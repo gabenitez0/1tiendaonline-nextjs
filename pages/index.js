@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Services from "../components/Services";
 const Features = dynamic(() => import('../components/Features'))
 const Soporte = dynamic(() => import('../components/Soporte'))
-const Contacto = dynamic(() => import('../components/Contacto'))
+const Contacto = dynamic(() => import('../components/Contacto'), {ssr: false})
 
 export default function IndexPage() {
   return (
