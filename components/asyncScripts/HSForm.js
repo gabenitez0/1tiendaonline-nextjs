@@ -8,7 +8,7 @@ export default function HSForm() {
         target: "#form",
       });
     }
-  });
+  }, {});
   return (
     <div id="form" className="form">
       <style jsx>{`
