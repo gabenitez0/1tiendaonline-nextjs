@@ -20,19 +20,14 @@ export default function Nosotros() {
           <p>
             <b>
               1tiendaonline es una marca creada con el propósito de ayudar a
-              pequeños y medianos comerciantes a mejorar su negocio mediante
-              herramientas de automatización. Nos centramos en brindar sin cargo
-              el asesoramiento adecuado para la elección de la plataforma
-              correcta considerando distintas variables.
+              comerciantes o empresas a mejorar su negocio mediante herramientas
+              de automatización. Nos centramos en brindar asesoramiento personalizado sin cargo con la finalidad de elegir adecuadamente los servicios y plataformas que se van a utilizar en el proyecto.
             </b>
           </p>
           <p>
-            Además, nos encargamos de las partes técnicas: la instalación,
-            configuración y adaptación del diseño de la tienda a la estética,
-            productos y colores de tu marca o negocio. También incluye
-            asesoramiento personalizado y soporte técnico por chat/llamadas.
+            Además nos encargamos de todas las partes técnicas y ofrecemos un servicio y soporte técnico pensando en el usuario final.
           </p>
-          <h3>Nuestro equipo:</h3>
+          <h3>Nuestro equipo y forma de trabajo:</h3>
           <p>
             Nuestro equipo está conformado por diseñadores y desarrolladores web
             profesionales. Trabajamos junto a Diseñadores Gráficos, Diseñadores

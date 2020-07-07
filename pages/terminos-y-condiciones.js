@@ -22,27 +22,27 @@ export default function Terminos() {
           <h3>Condiciones del servicio</h3>
           <ul>
             <li>
-              Nosotros trabajamos con plataformas externas a nosotros a la hora
-              de realizar una tienda online, es por ello que tanto las
-              promociones como las membresías están sujetas a la plataforma
-              correspondiente y por lo tanto los pagos se le deben realizar a
-              dicha plataforma.
+              Trabajamos con plataformas profesionales externas a nosotros a la
+              hora de realizar cualquier proyecto.
+            </li>
+            <li>
+              Es probable que el pago de algunos servicios y/o plataformas no
+              los deba realizar hacia nosotros directamente, sino hacia el
+              servicio y/o plataforma en cuestión.
+            </li>
+            <li>
+              Brindamos soporte técnico por chat, aún así no se garantiza una
+              respuesta inmediata considerando que también tenemos nuestros
+              horarios de trabajo.
             </li>
             <li>
               Nuestro principal medio de contacto y soporte técnico es por
-              WhatsApp
+              WhatsApp.
             </li>
             <li>
-              Los trabajos de diseño gráfico pueden demorar hasta 1 semana
-              máximo desde que se realiza el pago hasta ser entregados e
-              insertados en su tienda.
+              Tanto los términos y condiciones como las políticas de privacidad
+              están sujetas a cambios y/o actualizaciones.
             </li>
-            <li>
-              El precio por las campañas de publicidad incluye la creación,
-              gestión y optimización de la misma. No incluye presupuesto de
-              inversión ni diseño de flyer publicitario.
-            </li>
-            <li>Tanto los términos y condiciones como las políticas de privacidad están sujetas a cambios y/o actualizaciones.</li>
           </ul>
         </div>
 
@@ -68,8 +68,8 @@ export default function Terminos() {
             line-height: 2.1;
             color: var(--color-tertiary);
           }
-          li{
-              margin-bottom: 10px;
+          li {
+            margin-bottom: 10px;
           }
         `}</style>
       </section>

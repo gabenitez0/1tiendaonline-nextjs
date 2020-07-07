@@ -21,21 +21,20 @@ export default function Privacidad() {
           <h1>Políticas de privacidad</h1>
           <ul>
             <li>
-              Tenga en cuenta que nosotros tenemos acceso total sobre su tienda
-              o página web, por un lado, para realizar las modificaciones
-              necesarias para el mantenimiento, ya sea la aplicación de algún
-              recurso gráfico como la administración de las campañas de
-              publicidad u otros, y por otro lado, porque nos encargamos de
-              analizar que nuestros clientes no utilicen nuestros servicios para
-              estafar a otras personas.
+              Todos los datos que usted nos brinde y registremos en nuestras
+              bases de datos son completamente privados y se utilizarán con el
+              unico fin de brindar una asistencia personalizada.
             </li>
             <li>
-              También tenemos acceso a los datos de sus clientes (los clientes
-              de su tienda o página web), sin embargo, no los utilizaremos para nada más que
-              no tenga que ver con fines publicitarios para su tienda. No los
-              utilizaremos para nuestro propio beneficio.
+              Tenemos acceso y control total sobre su tienda o página web por
+              motivos administrativos: realizar mantenimiento, aplicación de
+              recursos gráficos, administración de las campañas de publicidad u
+              otros.
             </li>
-            <li>Si el cliente lo solicita, podemos renunciar al acceso de los datos mencionados en cualquier momento.</li>
+            <li>
+              Si el cliente lo solicita, podemos renunciar al acceso de los
+              datos mencionados en cualquier momento.
+            </li>
           </ul>
         </div>
 
