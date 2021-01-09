@@ -9,10 +9,10 @@ export default function HeaderComp() {
             ¡Contanos de qué se trata!
           </p>
           <div className="buttons">
-            <a href="#contacto" className="button-primary">
+            <a href="https://api.whatsapp.com/send?phone=541122542474" className="button-primary" target="_blank">
               Consultar Ahora
             </a>
-            <a href="#services" className="link">
+            <a href="/ecommerce" className="link">
               <span>Más Info</span> <i className="flaticon-right-arrow" />
             </a>
           </div>

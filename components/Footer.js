@@ -10,8 +10,8 @@ export default function Footer() {
           url: "/#services",
         },
         {
-          name: "Desarrollo de Tiendas Online",
-          url: "/#services",
+          name: "Desarrollo de E-Commerces",
+          url: "/ecommerce",
         },
         {
           name: "Diseño Gráfico/UX/UI",

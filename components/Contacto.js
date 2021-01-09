@@ -1,5 +1,4 @@
 import React from "react";
-import HSForm from "./asyncScripts/HSForm";
 
 export default function Contacto() {
   return (
@@ -9,7 +8,11 @@ export default function Contacto() {
           <span>Solicitud de proyecto</span>
           <h2>Contanos qué querés lograr</h2>
         </div>
-        <HSForm />
+        <div style={{textAlign: 'center'}}>
+        <a href="https://api.whatsapp.com/send?phone=541122542474" className="button-primary" target="_blank">
+          Enviar mensaje
+        </a>
+        </div>
       </div>
 
       <style jsx>{`
