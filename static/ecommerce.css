@@ -6,9 +6,6 @@
   text-decoration: none!important;
   background: #ecbc43;
 }
-#ecommerce{
-  padding: 60px 0;
-}
 .links {
   display: none!important;
 }
@@ -20,7 +17,7 @@
 }
 nav.container{
   padding: 20px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   border: 0;
 }
 .container{
@@ -214,6 +211,8 @@ a i{
 /*contacto*/
 .contacto{
   text-align: center;
+  border: 0;
+  padding: 60px 30px;
 }
 .contacto a{
   background: var(--color-secondary);
@@ -224,7 +223,17 @@ a i{
 .contacto a:hover{
   background: var(--color-tertiary);
 }
-
+/*footer*/
+.footer{
+  margin-bottom: 0;
+  padding: 80px 45px 30px!important;
+}
+.footer li{
+  line-height: 1;
+}
+.footer p{
+  font-size: 16px;
+}
 @media screen and (min-width: 480px){
   h1{
     font-size: 34px;

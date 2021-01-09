@@ -156,12 +156,15 @@ export default function Footer() {
         ul :global(a) {
           color: var(--color-tertiary);
           font-size: 14px;
-          line-height: 36px;
+          line-height: 2;
           transition: all 0.2s ease 0s;
           text-decoration: none;
         }
         ul :global(a:hover) {
           text-decoration: underline;
+        }
+        ul li{
+          margin-bottom: 10px;
         }
         .logoCol {
           box-sizing: border-box;
