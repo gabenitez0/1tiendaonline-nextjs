@@ -40,8 +40,8 @@ export default function Ecommerce() {
         <Ayuda visible={visible} setVisible={setVisible} modal={modal}/>
         <Header/>
         <Intro/>
-        <Nosi/>
         <Valor/>
+        <Nosi/>
         <Propuesta visible={visible} setVisible={setVisible} modal={modal}/>
         <Marketplace/>
         <Design/>
