@@ -10,8 +10,8 @@ import Footer from "../components/Footer";
 
 const tagManagerArgs = {
   gtmId: "GTM-K755N37",
-  auth: 'w_AG8jKZqBGQk3uNJd3rhA',
-  preview: 'env-3'
+  auth: '1zWAvMxnysKmGreGBBtOPQ',
+  preview: 'env-16'
 };
 
 export default class Layout extends App {
