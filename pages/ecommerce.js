@@ -49,7 +49,7 @@ export default function Ecommerce() {
         <Panel/>
         <Garantia/>
         <PruebaSocial/>
-        <Propuesta visible={visible} setVisible={setVisible} modal={modal}/>
+        <Propuesta visible={visible} setVisible={setVisible} modal={modal} titulo="¿Cuál es mi propuesta?"/>
         <Contacto/>
       </section>
     </>

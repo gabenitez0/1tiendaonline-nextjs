@@ -30,7 +30,6 @@ export default class Layout extends App {
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
             rel="stylesheet"
           ></link>
-          <meta property="og:image" content="/favicon.png" />
           <link rel="stylesheet" href="/styles.css"></link>
         </Head>
         <Nav />
