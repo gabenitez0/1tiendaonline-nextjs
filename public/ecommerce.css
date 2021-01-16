@@ -236,7 +236,7 @@ a i{
 .footer{
   margin-bottom: 0;
   padding: 50px 45px 30px!important;
-  background-position: center center!important;
+  background-position: center -2%!important;
 }
 .footer li{
   line-height: 1;
@@ -247,6 +247,7 @@ a i{
 .footer .logoCol{
   margin-bottom: 0!important;
   text-align: center!important;
+  width: 100%!important;
 }
 .footer .logoCol img, .footer .logoCol a{
   height: 40px;
