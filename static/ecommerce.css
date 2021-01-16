@@ -208,6 +208,12 @@ a i{
   margin: 0 auto 20px;
 }
 
+/*pruebasocial*/
+.social a{
+  margin: 10px 0;
+  display: block;
+}
+
 /*contacto*/
 .contacto{
   text-align: center;

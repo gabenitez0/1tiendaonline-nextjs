@@ -10,8 +10,9 @@ import Propuesta from "../components/ecommerce/Propuesta";
 import Marketplace from "../components/ecommerce/Marketplace";
 import Design from "../components/ecommerce/Design";
 import Panel from "../components/ecommerce/Panel";
-import Garantia from "../components/ecommerce/Garantia";
 import Contacto from "../components/ecommerce/Contacto";
+import Garantia from "../components/ecommerce/Garantia";
+import PruebaSocial from "../components/ecommerce/PruebaSocial";
 
 export default function Ecommerce() {
   const [visible, setVisible] = useState(false);
@@ -47,6 +48,7 @@ export default function Ecommerce() {
         <Design/>
         <Panel/>
         <Garantia/>
+        <PruebaSocial/>
         <Propuesta visible={visible} setVisible={setVisible} modal={modal}/>
         <Contacto/>
       </section>
