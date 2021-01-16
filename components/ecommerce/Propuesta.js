@@ -1,18 +1,18 @@
 import Countdown from "react-countdown";
 
-export default function Propuesta({visible, setVisible, modal}) {
+export default function Propuesta({visible, setVisible, modal, titulo}) {
 
   const ahora = Date.now();
   const hoy = new Date(); hoy.setHours(24, 0, 0);
 
   return (<>
     <div className="container propuesta">
-      <h2>¿Cuál es mi propuesta?</h2>
+      <h2>{titulo}</h2>
       <p>Actualmente <b>estoy ofreciendo un paquete que incluye TODO lo que necesitas para tener tu e-commerce integrado a tus redes sociales y funcionando al 100%</b> a un precio exclusivo de lanzamiento:</p>
       <table>
         <thead>
           <tr>
-            <th>Producto/Servicio <i className="icofont-question-circle masinfo" onClick={() => setVisible(true)}>Ver info</i></th>
+            <th>Producto/Servicio <a className="masinfo" onClick={() => setVisible(true)}><i className="icofont-question-circle"></i>Ver info</a></th>
             <th>Precio (ARS)</th>
           </tr>
         </thead>

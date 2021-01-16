@@ -63,7 +63,7 @@ export default function Footer() {
     <section id="footer">
       <div className="footer container">
         <div className="logoCol">
-          <img className="logo" src="/static/logo.svg" />
+        <Link href="/"><a><img className="logo" src="/static/logo.svg" /></a></Link>
           <p>gabriel@1tienda.online</p>
           <p>+54 9 1122542474</p>
           <div className="social">

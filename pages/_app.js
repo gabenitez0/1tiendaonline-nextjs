@@ -24,14 +24,14 @@ export default class Layout extends App {
       <>
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" href="/static/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
           <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
             rel="stylesheet"
           ></link>
           <meta property="og:image" content="/favicon.png" />
-          <link rel="stylesheet" href="static/styles.css"></link>
+          <link rel="stylesheet" href="/styles.css"></link>
         </Head>
         <Nav />
         <Component {...pageProps} />

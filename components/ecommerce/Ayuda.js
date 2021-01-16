@@ -27,7 +27,7 @@ export default function Ayuda({visible, setVisible, modal}) {
   <div className="container help">
     <h2>¿Qué es el Certificado de seguridad SSL/HTTPS?</h2>
     <p>Un certificado SSL (Secure Sockets Layer) es un título digital que autentifica la identidad de un sitio web y cifra con tecnología SSL la información que se envía al servidor. Cuando un usuario de Internet intenta enviar información de credenciales a un servidor web, el navegador del usuario accede al certificado digital del servidor y establece una conexión segura. El certificado SSL es muy importante en un e-commerce ya que, además de brindar confianza, protege los datos de identidad y tarjetas de tus clientes.</p>
-    <img src="static/ssl.gif" style={{maxWidth: '100%', width: 450, marginTop: 20}}/>
+    <img src="/ssl.gif" style={{maxWidth: '100%', width: 450, marginTop: 20}}/>
   </div>
   <div className="container help">
     <h2>¿Qué implica la Instalación y Configuración de...?</h2>

@@ -34,8 +34,8 @@ export default function Ecommerce() {
           name="keywords"
           content="tiendaonline, automatización, automático, tienda digital, e-commerce, ecommerce, redes sociales, emprendimiento, emprendedor, ventas, compras, ropa, instagram, facebook, prestashop, woocommerce, tiendanube, shopify"
         />
-        <link rel="stylesheet" href="static/icofont.min.css"></link>
-        <link rel="stylesheet" href="static/ecommerce.css"></link>
+        <link rel="stylesheet" href="/icofont.min.css"></link>
+        <link rel="stylesheet" href="/ecommerce.css"></link>
       </Head>
       <section id="ecommerce">
         <Ayuda visible={visible} setVisible={setVisible} modal={modal}/>
@@ -43,7 +43,7 @@ export default function Ecommerce() {
         <Intro/>
         <Valor/>
         <Nosi/>
-        <Propuesta visible={visible} setVisible={setVisible} modal={modal}/>
+        <Propuesta visible={visible} setVisible={setVisible} modal={modal} titulo="¿Cuál es mi propuesta?"/>
         <Marketplace/>
         <Design/>
         <Panel/>

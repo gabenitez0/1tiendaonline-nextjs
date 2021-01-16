@@ -103,11 +103,14 @@ th, td{
 .masinfo{
   cursor: pointer;
   border: 1px solid goldenrod;
-  border-radius: 2px;
   margin-left: 5px;
-  padding: 0 1px;
-  letter-spacing: 1px;
+  padding: 0 3px;
   background: #f3d25a;
+  color: #543e05;
+  font-size: .9rem;
+}
+.masinfo i{
+  margin-right: 2px;
 }
 .modal {
   position: fixed;
@@ -232,7 +235,8 @@ a i{
 /*footer*/
 .footer{
   margin-bottom: 0;
-  padding: 80px 45px 30px!important;
+  padding: 50px 45px 30px!important;
+  background-position: center center!important;
 }
 .footer li{
   line-height: 1;
@@ -240,6 +244,69 @@ a i{
 .footer p{
   font-size: 16px;
 }
+.footer .logoCol{
+  margin-bottom: 0!important;
+  text-align: center!important;
+}
+.footer .logoCol img, .footer .logoCol a{
+  height: 40px;
+  margin: 0;
+}
+.footer .footerCols{
+  display: none!important;
+}
+.footer .logoCol .social, .footer .logoCol p {
+  display: none!important;
+}
+
+
+/*ecommerce/pago*/
+.pago .propuesta a.button-primary{
+  display: none;
+}
+.pago .propuesta .precio{
+  margin: 30px auto;
+}
+.modalpago{
+  justify-content: center;
+}
+.modalpago p{
+  line-height: 2;
+}
+.modalpago p b{
+  background: #eaeaea;
+  padding: 1px 4px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.modalpago p u{
+  padding-top: 10px;
+  display: block;
+}
+.datos{
+  width: calc(100% - 60px);
+  max-width: 500px;
+}
+
+
+.botonesPago{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botonesPago a{
+  width: 364px;
+  letter-spacing: 1px;
+}
+
+.button-primary.mercadopago{
+  background-color: #009ee3;
+}
+.button-primary.criptos{
+  background-color: var(--color-primary);
+}
+
+
 @media screen and (min-width: 480px){
   h1{
     font-size: 34px;
