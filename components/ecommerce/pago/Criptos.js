@@ -11,7 +11,7 @@ export default function Criptos({visibleCriptos, setVisibleCriptos, modalCriptos
     <p>USDT (TRC20): <b>TRb76KLNXXhF4HvvUoq1mLMVhrQjutjvb7</b></p>
     <p>BTC: <b>1GyHrDCfFL1sypPn1fWHmjr6AtqBoJAk5W</b></p>
     <p>ETH: <b>0x8f89624dbbf47ef825319dd7cf5211baecf7d8b0</b></p>
-    <p>Importe equivalente a: <b>$33 USD</b></p>
+    <p>Importe equivalente a: $<b>33</b> USD</p>
     <p><u>Informar por WhatsApp una vez realizado el pago.</u></p>
   </div>
   <div className="container head datos">
