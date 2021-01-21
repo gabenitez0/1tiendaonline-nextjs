@@ -31,6 +31,7 @@ export default class Layout extends App {
             rel="stylesheet"
           ></link>
           <link rel="stylesheet" href="/styles.css"></link>
+          <meta name="facebook-domain-verification" content="dvq8nuf6e9de75mykkw9wztz596l86" />
         </Head>
         <Nav />
         <Component {...pageProps} />
