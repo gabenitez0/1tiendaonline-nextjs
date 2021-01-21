@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Countdown from "react-countdown";
 
 export default function Propuesta({visible, setVisible, modal, titulo}) {
@@ -66,7 +67,7 @@ export default function Propuesta({visible, setVisible, modal, titulo}) {
         </div>
       </div>
       <div className="cta">
-        <a className="button-primary" href="https://api.whatsapp.com/send?phone=541122542474&text=Hola%2C%20me%20interesa%20adquirir%20la%20oferta%20%22Pack-Commerce%20Completo%22." target="_blank"><i className="icofont-brand-whatsapp"></i> Quiero la oferta</a>
+        <Link href="/ecommerce/pago"><a className="button-primary"><i className="icofont-sale-discount"></i> Si, Quiero la oferta!</a></Link>
       </div>
       <p><i className="icofont-bomb"></i> Además de todo esto, incluímos la <b>personalización del diseño del e-commerce para que sea acorde al producto</b> y, en caso de que no tengas, el <b>diseño de un logotipo</b> simple para tu tienda; <u>ambas cosas cotizadas en +$10.000 completamente GRATIS!</u> <i className="icofont-bomb"></i></p>
     </div>

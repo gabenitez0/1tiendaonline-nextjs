@@ -300,14 +300,18 @@ a i{
   width: 364px;
   letter-spacing: 1px;
 }
-
+.botonesPago a i{
+  font-size: 24px;
+}
 .button-primary.mercadopago{
   background-color: #009ee3;
+}
+.button-primary.paypal{
+  background-color: #0070ba;
 }
 .button-primary.criptos{
   background-color: var(--color-primary);
 }
-
 
 @media screen and (min-width: 480px){
   h1{

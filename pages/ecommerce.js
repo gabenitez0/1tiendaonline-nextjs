@@ -50,7 +50,7 @@ export default function Ecommerce() {
         <Garantia/>
         <PruebaSocial/>
         <Propuesta visible={visible} setVisible={setVisible} modal={modal} titulo="¿Cuál es mi propuesta?"/>
-        <Contacto/>
+        <Contacto title="¿Todavía tenes dudas?" desc="Hola, soy Gabriel, podes ponerte en contacto conmigo, te respondo todas tus dudas y te brindo asesoramiento gratis" link="https://api.whatsapp.com/send?phone=541122542474&text=Hola%2C%20tengo%20una%20duda%20respecto%20a%20la%20oferta%20%22Pack-Commerce%20Completo%22."/>
       </section>
     </>
   );
