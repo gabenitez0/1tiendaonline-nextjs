@@ -58,7 +58,7 @@ export default function Propuesta({visible, setVisible, modal, titulo}) {
       </table>
       <p>El precio normal de todos estos servicios es de <b>$20.000 + $15.000</b>, pero estamos ofreciendo el Pack-Commerce Completo a un precio exclusivo de solo:</p>
       <div className="precio">
-        <h1>$<b>5000</b> ARS/único</h1>
+        <h1>$<b>4999</b> ARS/único</h1>
         <span>+ $6,00 USD/mes a partir de segundo mes</span>
         <h3>¡75% de descuento!</h3>
         <div className="countdown">
