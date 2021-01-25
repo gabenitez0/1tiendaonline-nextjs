@@ -25,14 +25,14 @@ export default function Ecommerce() {
   return (
     <>
       <Head>
-        <title>Tienda Online para comerciantes de Instagram - 1tiendaonline</title>
+        <title>Aumentá tus ventas - 1tiendaonline</title>
         <meta
           name="description"
-          content="Dá el sigiente paso en tu emprendimiento o comercio de Instagram."
+          content="Dá el sigiente paso en tu emprendimiento o comercio de Instagram. "
         />
         <meta
           name="keywords"
-          content="tiendaonline, automatización, automático, tienda digital, e-commerce, ecommerce, redes sociales, emprendimiento, emprendedor, ventas, compras, ropa, instagram, facebook, prestashop, woocommerce, tiendanube, shopify"
+          content="tiendaonline, automatización, automático, tienda digital, tienda online, e-commerce, ecommerce, redes sociales, emprendimiento, emprendedor, ventas, compras, ropa, instagram, facebook, prestashop, woocommerce, tiendanube, shopify, guru, gurú, relojes, adidas, nike, new balance"
         />
         <link rel="stylesheet" href="/icofont.min.css"></link>
         <link rel="stylesheet" href="/ecommerce.css"></link>

@@ -19,7 +19,7 @@ export default function IndexPage() {
         />
         <meta
           name="keywords"
-          content="tiendaonline, automatización, automático, tienda digital, e-commerce, ecommerce, redes sociales, emprendimiento, emprendedor, ventas, compras, ropa, instagram, facebook, prestashop, woocommerce, tiendanube, shopify"
+          content="tiendaonline, automatización, automático, tienda digital, tienda online, e-commerce, ecommerce, redes sociales, emprendimiento, emprendedor, ventas, compras, ropa, instagram, facebook, prestashop, woocommerce, tiendanube, shopify, guru, gurú, relojes, adidas, nike, new balance"
         />
       </Head>
 
