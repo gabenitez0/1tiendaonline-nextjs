@@ -14,7 +14,6 @@ export default function Nosi() {
         <li><i className="icofont-checked"></i> <b>Un poderoso generador de bases de datos</b>, cada visitante y cliente que tengas quedará registrado y son datos valiosos para optimizar productos y procesos de marketing.</li>
         <li><i className="icofont-checked"></i> <b>Una herramienta administrativa y de optimización</b>, permite ver y ofrecer con facilidad tus productos más visitados, más vendidos y más valiosos.</li>
       </ul>
-      <p><b>Además, en caso de que no sea para vos, te ofrecemos una garantía de devolucón del 100%.</b></p>
     </div>
   </>)
 }

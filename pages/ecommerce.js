@@ -25,10 +25,10 @@ export default function Ecommerce() {
   return (
     <>
       <Head>
-        <title>Ahorra tiempo automatizando tus ventas | 1tiendaonline</title>
+        <title>Tienda Online para comerciantes de Instagram - 1tiendaonline</title>
         <meta
           name="description"
-          content="Ahorra tiempo y trabajo automatizando tus ventas de instagram y redes sociales."
+          content="Dá el sigiente paso en tu emprendimiento o comercio de Instagram."
         />
         <meta
           name="keywords"

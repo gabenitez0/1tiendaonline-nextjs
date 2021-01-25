@@ -12,10 +12,10 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>1tiendaonline | Automatiza tu negocio</title>
+        <title>1tiendaonline - Servicios administrativos</title>
         <meta
           name="description"
-          content="Soluciones tecnológicas de automatización de ventas, leads y bases de datos para empresas, negocios y emprendimientos."
+          content="Soluciones tecnológicas de automatización de bases de datos, leads y ventas para comercios y emprendimientos."
         />
         <meta
           name="keywords"
